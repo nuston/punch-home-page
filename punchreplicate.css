@@ -10,20 +10,26 @@ nav.pos{
     } 
     div.top {
         display: inline-block;
-        width: calc(100% - 200px);
+        width: calc(100% - 60px);
         margin-top:  70px;
         text-align: center;
     }
 
-.link1{
-color: white; 
-text-decoration: none;
-transition-duration: 1.5s;
-transition-property: color;
-transition-timing-function: linear;
+p.left {
+    text-align: left;
 }
-.link1:hover{
-    color: yellow;
+p.right{
+    text-align: right;
+}
+p.center {
+    text-align: center;      word-spacing: 5px; line-height: 25px; font-family: sans-serif;
+     font-weight: bolder; font-style: italic; font-size: x-large;
+}
+p.justify {
+    text-align: justify;
+}
+.link1{
+color: white; text-decoration: none;
 }
 .link2{
     color: black; text-decoration: none; font-family: Arial, Helvetica, sans-serif;
@@ -40,196 +46,4 @@ transition-timing-function: linear;
     ul{
     list-style-type: disc;
     }
-
-  .video {
-border: 5px solid rgb(245, 241, 241);
-color: red;
-font-size: 20px;
-font-weight: bold;
-font-style: initial;
-position: relative;
-text-align: justify;
-  }
-  .parent-flex{
-
-    display: flex;
-    
-    padding-top: 10px;
-}
-.row1, .row3, .ads{
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 25% ;
-    text-align: left;
-}
-.row2{
-    flex-grow: 1;
-    flex-shrink: 1;
-   
-    text-align: center;
-}
-.ads{
-    text-align: center;
-    font-size: small;
-    background-color: rgb(228, 215, 217);
-    margin-left: 80px;
-}
-.vid{
-    display: flex;
-    text-align: left;
-    align-items: center;
-    flex-basis: 20%;
-    justify-content: space-around;
-    border: 10px solid rgb(250, 247, 247);
-    border-radius: 4px;
-    background-color: rgb(243, 230, 230);
-}
-.more-left{
-    width: 80%;
-    text-align: right;
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(126, 122, 122);
-}
-.fa-play{
-    color: red;
-}
-.second{
-    position: relative;
-    left: 10%;
-    color: red;
-}
-.latest{
-    color: red;
-}
-.latest_news{
-
-    font-size: larger;
-    font-weight: 700;
-}
-.more2{
-
-    float: right;
-    justify-content: center;
-    justify-items: center;
-}
-
-.latest{
-    float: right; 
-    font-size: larger;
-    font-weight: 700;
-}
-.news_flex{
-    display: flex;
-    font-size: larger;
-    font-weight: bold;
-}
-.advert_flex{
-    flex-basis: 75%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    text-align: center;
-}
-.redd{
-    color: red;
-    font-size: larger;
-    font-weight: 700;
-    padding-bottom: 5px;
-}
-
-.section4{
-    display: flex;
-    flex-basis: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    
-    text-align: center
-    }
-
-.vid2{
-    text-align: left;
-}
-.vid4{
-    flex-basis: 25%;
-    text-align: center;
-    padding-top: 20px;
-}
-row4{
-    flex-basis: 20%;
-    justify-content: center;
-    text-align: center
-}
-.row5{
-    flex-basis: 20%;
-    justify-content: center;
-    text-align: center
-}
-.metro{
-    color: red;
-    padding-top: 5px;
-    font-weight: bolder;
-    font-size: larger;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    justify-content: left;
-}
-.section5{
-    display: flex;
-    flex-basis: 25%;
-    flex-grow: 1;
-    flex-shrink: 1;
-    
-    text-align: center
-    }
-    @media (max-width: 1000px) {
-        .ads{
-            text-align: center;
-            font-size: small;
-            background-color: yellow;
-        }
-    }
-    @media (max-width: 700px) {
-        .ads{
-            text-align: center;
-            font-size: small;
-            background-color: green;
-        }
-    }
-    @media (max-width: 600px) {
-        .ads{
-            text-align: center;
-            font-size: small;
-            background-color: yellowgreen;
-            display: none;
-            
-        }
-    }
-    @media (max-width: 200px) {
-        .ads{
-            text-align: center;
-            font-size: small;
-            background-color: purple;
-        }
-    }
-    @media (max-width: 100px) {
-        .ads{
-            text-align: center;
-            font-size: small;
-            background-color: yellowgreen;
-        }
-    }
-    @media print {
-       .ads,
-        .advert_flex,
-        .latest_news,
-        .metro,
-        .more-left,
-        .parent-flex {
-            display: none;
-        }
-    }
-
-    .row2{
-        width: 100%;
-        height: auto;
-    }
-    
+  
